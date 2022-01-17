@@ -12,8 +12,7 @@
 		E2A4E5A127956E8F0021F1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A4E5A027956E8F0021F1DA /* Assets.xcassets */; };
 		E2A4E5A427956E8F0021F1DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A4E5A327956E8F0021F1DA /* Preview Assets.xcassets */; };
 		E2A4E5AE27956E8F0021F1DA /* TDDPokerBySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A4E5AD27956E8F0021F1DA /* TDDPokerBySwiftTests.swift */; };
-		E2A4E5B827956E8F0021F1DA /* TDDPokerBySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A4E5B727956E8F0021F1DA /* TDDPokerBySwiftUITests.swift */; };
-		E2A4E5BA27956E8F0021F1DA /* TDDPokerBySwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A4E5B927956E8F0021F1DA /* TDDPokerBySwiftUITestsLaunchTests.swift */; };
+		E2A4E5C727956F420021F1DA /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A4E5C627956F420021F1DA /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +41,7 @@
 		E2A4E5A927956E8F0021F1DA /* TDDPokerBySwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDPokerBySwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A4E5AD27956E8F0021F1DA /* TDDPokerBySwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDPokerBySwiftTests.swift; sourceTree = "<group>"; };
 		E2A4E5B327956E8F0021F1DA /* TDDPokerBySwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDPokerBySwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2A4E5B727956E8F0021F1DA /* TDDPokerBySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDPokerBySwiftUITests.swift; sourceTree = "<group>"; };
-		E2A4E5B927956E8F0021F1DA /* TDDPokerBySwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDPokerBySwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2A4E5C627956F420021F1DA /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +74,6 @@
 			children = (
 				E2A4E59B27956E8E0021F1DA /* TDDPokerBySwift */,
 				E2A4E5AC27956E8F0021F1DA /* TDDPokerBySwiftTests */,
-				E2A4E5B627956E8F0021F1DA /* TDDPokerBySwiftUITests */,
 				E2A4E59A27956E8E0021F1DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				E2A4E59C27956E8E0021F1DA /* TDDPokerBySwiftApp.swift */,
+				E2A4E5C627956F420021F1DA /* Card.swift */,
 				E2A4E59E27956E8E0021F1DA /* ContentView.swift */,
 				E2A4E5A027956E8F0021F1DA /* Assets.xcassets */,
 				E2A4E5A227956E8F0021F1DA /* Preview Content */,
@@ -116,15 +114,6 @@
 				E2A4E5AD27956E8F0021F1DA /* TDDPokerBySwiftTests.swift */,
 			);
 			path = TDDPokerBySwiftTests;
-			sourceTree = "<group>";
-		};
-		E2A4E5B627956E8F0021F1DA /* TDDPokerBySwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E2A4E5B727956E8F0021F1DA /* TDDPokerBySwiftUITests.swift */,
-				E2A4E5B927956E8F0021F1DA /* TDDPokerBySwiftUITestsLaunchTests.swift */,
-			);
-			path = TDDPokerBySwiftUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2A4E59F27956E8E0021F1DA /* ContentView.swift in Sources */,
+				E2A4E5C727956F420021F1DA /* Card.swift in Sources */,
 				E2A4E59D27956E8E0021F1DA /* TDDPokerBySwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,8 +264,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2A4E5BA27956E8F0021F1DA /* TDDPokerBySwiftUITestsLaunchTests.swift in Sources */,
-				E2A4E5B827956E8F0021F1DA /* TDDPokerBySwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
